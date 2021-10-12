@@ -1,0 +1,20 @@
+/* 
+COMO LLAMAR A LAS FUENTES AGREGADAS
+font-family: 'Ubuntu', sans-serif; 
+*/
+
+/*
+CONVENCIONALIDADES: COSAS EN LAS QUE TODOS LOS DESARROLLADORES SE HAN PUESTO DE ACUERDO
+
+-> ORDEN EN EL QUE SE APLICAN LOS ESTILOS
+    1. Todo lo relacionado con posicionamiento
+    2. Todo lo que tiene que ver con el modelo de caja (BOX MODEL)
+    3. Todolo que tiene que ver con tipografia 
+        fuente
+        tamaño de fuente
+        tipo de fuente
+    4. Temas visuales
+        shadow box
+        border redius
+    5. Otros (miselanius)
+*/
