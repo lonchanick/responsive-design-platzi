@@ -16,8 +16,17 @@ CONVENCIONALIDADES: COSAS EN LAS QUE TODOS LOS DESARROLLADORES SE HAN PUESTO DE 
     4. Temas visuales
         shadow box
         border redius
-    5. Otros (miselanius)
+    5. Otros (miselanius).
+
+
 */
+
+            /* PLANTILLA */
+/* 1.Position */
+/* 2.Typography */
+/* 3.box-model */
+/* 4.visual styles */
+/* 5.Otros */
 
 :root{
     /* colores */
@@ -31,12 +40,56 @@ CONVENCIONALIDADES: COSAS EN LAS QUE TODOS LOS DESARROLLADORES SE HAN PUESTO DE 
     --just-white: #fff;
     --grey: #bababa;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 html{
     font-size: 62.5%;
     font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+/* 1.Posit - 2.Tipogra - 3.box-m - 4.visual - 5.Otros */
+    position: relative; /* para poder posicionar el boton de mas abajo entre las dos secciones */
+    display: flex;
+    flex-direction: column; /* muestra en forma de columna todos los elementos hijos */
+    justify-content: center; /* centra el contenido de arriba hacia abajo */
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    /* text-align: center; */ /* centra SOLO lo que es texto */
+    /* align-items: center; */ /* centra los elementos pero no justifica el texto al centro */
+    /* text-align: center; */
+}
+
+header img{
+/* 1.Posit */
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;/* cuando el elemento padre ya esta aplicando un centrado hay que usar el align-self para ser mas espesifico y forzar el centrado de este elemento */
+/* 2.Tipogra */
+/* 3.box-m */
+/* 4.visual */
+/* 5.Otros */
+}
+
+.header--title-container{
+/* 1.Position */
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    /* margin: 0 auto; */
+    text-align: center;
+    align-self: center;
+/* 2.Typography */
+/* 3.box-model */
+/* 4.visual styles */
+/* 5.Otros */ 
 }
