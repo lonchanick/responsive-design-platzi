@@ -64,6 +64,7 @@ header{
     /* text-align: center; */ /* centra SOLO lo que es texto */
     /* align-items: center; */ /* centra los elementos pero no justifica el texto al centro */
     /* text-align: center; */
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); ;
 }
 
 header img{
@@ -83,13 +84,40 @@ header img{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    height: 218px;
+    height: /* 218px; */ auto;
     margin-top: 40px;
     /* margin: 0 auto; */
     text-align: center;
     align-self: center;
 /* 2.Typography */
+    
 /* 3.box-model */
 /* 4.visual styles */
 /* 5.Otros */ 
 }
+
+.header--title-container h1{
+/* 1.Position */
+    
+/* 2.Typography */
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+/* 3.box-model */
+/* 4.visual styles */
+/* 5.Otros */
+}
+
+.header--title-container p{
+    /* 1.Position */
+    /* 2.Typography */
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+    /* 3.box-model */
+        margin-top: 25px;
+    /* 4.visual styles */
+        color: var(--soft-orange);
+    /* 5.Otros */ 
+    }
