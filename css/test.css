@@ -1,0 +1,33 @@
+
+/*########################################*/
+
+.s{
+    width: 100%;
+    height: 25vh;
+    min-width: 320px;
+    margin: 0 auto;
+
+}
+.uno{
+    background-color: #f7931a;
+    max-width: 1024px;
+}
+
+.dos{
+    background-color: brown;
+    text-align: center;
+    max-width: 900px;
+}
+.dos p{
+    width: 90%;
+    background-color: ghostwhite;
+    margin: 0  auto;
+}
+.tres{
+    background-color: cornflowerblue;
+    max-width: 600px;
+}
+.cuatro{
+    background-color: deeppink;
+    max-width: 300px;
+}

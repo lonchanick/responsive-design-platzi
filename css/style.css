@@ -47,6 +47,7 @@ CONVENCIONALIDADES: COSAS EN LAS QUE TODOS LOS DESARROLLADORES SE HAN PUESTO DE 
 html{
     font-size: 62.5%;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
 }
 
 header{
@@ -171,6 +172,7 @@ main{
     /* 2.Typography */
     /* 3.box-model */
     width: 100%;
+    min-width: 320px;
     /* min-width: 320px; */
     height: auto;
     padding: 20px;
@@ -194,6 +196,7 @@ main{
     margin: 0 auto;
     /* align-self: center; */
     margin-top: 40px;
+    margin-bottom: 40px;
     /* border: 2px black solid; */
     /* 2.Typography */
     /* 3.box-model */
@@ -220,9 +223,95 @@ main{
     font-weight: 500;
     line-height: 1.6rem;
     color: #757575;
+    margin-top: 23px;
+}
+.main-table-container{
+    min-width: 320px;
+    /* max-width: 500px; */
+}
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--title
+{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: bold;
+    color: #FF9536;
 }
 
+.main-exchange-container .main-table-container .currency-table-container
+{
+    margin-top: 50px;
+}
 
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--table table
+{
+    margin: 15px auto;
+    width: 180px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
 
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--table table .td-left{
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #B5B0AC;
+    text-align: left;
+    padding: 10px;
+}
 
-    
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--table table .td-right
+{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--table table .up-arrow{
+    display: inline-block;
+    background-image: url('/assets/icons/trending-up.svg');
+    width: 11px;
+    height: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--table table .down-arrow{
+    display: inline-block;
+    background-image: url('/assets/icons/trending-down.svg');
+    width: 11px;
+    height: 6px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--botton{
+    height: 31px;
+    width: 220px;
+    background-color: var(--soft-orange);
+    padding-top: 8px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--botton p{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.main-exchange-container .main-table-container .currency-table-container
+.currency-table--botton span{
+    font-weight: 700;
+}
+
