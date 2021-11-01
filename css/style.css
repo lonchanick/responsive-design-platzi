@@ -58,6 +58,8 @@ header{
     justify-content: center; /* centra el contenido de arriba hacia abajo */
     width: 100%;
     min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
     height: 334px;
     /* text-align: center; */ /* centra SOLO lo que es texto */
     /* align-items: center; */ /* centra los elementos pero no justifica el texto al centro */
@@ -173,12 +175,14 @@ main{
     /* 3.box-model */
     width: 100%;
     min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
     /* min-width: 320px; */
     height: auto;
     padding: 20px;
     /* display: flex; */
     /* flex-direction: column; */
-    background-color:  var(--off-white);
+    background-color: var(--off-white);
     /* 4.visual styles */
     /* 5.Otros */
     text-align: center;
@@ -224,10 +228,6 @@ main{
     line-height: 1.6rem;
     color: #757575;
     margin-top: 23px;
-}
-.main-table-container{
-    min-width: 320px;
-    /* max-width: 500px; */
 }
 .main-exchange-container .main-table-container .currency-table-container
 .currency-table--title
@@ -315,3 +315,82 @@ main{
     font-weight: 700;
 }
 
+/* AQUI COMIENZA SECCION PRODUCT DETAIL */
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--warm-black);
+    padding: 15px;
+}
+
+.main-product-detail .product-detail--header .header--title{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.4rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: var(--just-white);
+
+    margin-top: 49px;
+}
+
+.main-product-detail .product-detail--header .header--paragraph{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 30px;
+}
+.main-product-detail .cards .cards--real-time
+{
+    background-color: #37342f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 461px;
+    min-width: 260px;
+}
+.main-product-detail .cards .cards--real-time .real-time--icon
+{
+    display: inline-block;
+    background-image: url('/assets/icons/clock.svg');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-product-detail .cards .cards--real-time .real-time--title
+{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    padding: 10px 0;
+}
+
+.main-product-detail .cards .cards--real-time .real-time--paragraph
+{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.main-product-detail .product-detail--icon{
+    position: absolute;
+    left: calc(50% - 38px/2);
+    bottom: 687px;
+    display: inline-block;
+    background-image: url('/assets/icons/batata.svg');
+    width: 38px;
+    height: 24.5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
