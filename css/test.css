@@ -31,3 +31,39 @@
     background-color: deeppink;
     max-width: 300px;
 }
+/*############################## test 2 #######################*/
+.table-container{
+    width: 300px;
+    height: 400px;
+    background-color: #f7931a;
+    position: relative;
+}
+
+table{
+    width: 80%;
+    padding: 5px;
+    background-color: #ffe9d5;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: calc( 50% - 120px);
+
+}
+
+table td{
+    width: 50%;
+    border: 1px solid black;
+  }
+
+.ul{
+    border-radius: 5px 0 0 0;
+}
+.ur{
+    border-radius: 0 5px 0 0;
+}
+.dl{
+    border-radius: 0 0 0 5px;
+}
+.dr{
+    border-radius: 0 0 5px 0;
+}
