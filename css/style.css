@@ -395,3 +395,23 @@ main{
     line-height: 1.8rem;
     color: #808080;
 }
+.comodin{
+    position: relative;
+    min-width: 320px;
+    height: 387px;
+    background-image: url('/assets/img/bitcoinbaby2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.comodin p{
+    position: absolute;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+    left: calc(50% - 170.92px/2);
+    top: calc(15%);
+}
