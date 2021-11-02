@@ -397,8 +397,9 @@ main{
 }
 .comodin{
     position: relative;
+    width: 100%;
     min-width: 320px;
-    height: 387px;
+    height: 50vh;
     background-image: url('/assets/img/bitcoinbaby2x.png');
     background-size: cover;
     background-repeat: no-repeat;

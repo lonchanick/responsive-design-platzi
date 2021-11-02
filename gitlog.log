@@ -1,3 +1,16 @@
-* ce150ee (HEAD -> main) fuentes (ubuntu: 300-400-500-700) descargadas y agregadas)
+* 4f95a26 (HEAD -> main, origin/main) seccion commodin terminada
+* 85fed56 empezando la seccion comodin
+* f2e250e seccion MAIN PRODUCT DETAIL terminada
+* eb15d36 probando las tablas, checando bien como es que se manipulan
+* e48088f (origin/tables, tables) terminando seccion con tablas
+* c52832a avances en la seccion de intercambios
+* ebd4861 (butto-bymyself) correcciones y adiciones pos-video de clase
+* 8c0352a boton estilado por mi cuenta en  rama bymyself
+* 301d98c avences en el header, LITERALMENTE LO MISMO QUE HIZO EL PROFE
+* b88c785 avances en el header
+* a22e598 - agregando colores a utilizar - set configuracion inicial del css (box-sizing, etc) -estilos bases para el proyecto listo
+* e34924e -directorio css corregido - hoja de estilo linkeada - convencionalidades de CSS  agregadas
+* 223fb91 alias para ver git log en desde vscode en un file
+* ce150ee fuentes (ubuntu: 300-400-500-700) descargadas y agregadas)
 * a0b5896 estructura inicial del index creada
-* 7fc0c42 (origin/main) iniciando proyecto con assets descargados
+* 7fc0c42 iniciando proyecto con assets descargados
