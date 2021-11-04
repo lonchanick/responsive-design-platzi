@@ -241,6 +241,7 @@ main{
 .main-exchange-container .main-table-container .currency-table-container
 {
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .main-exchange-container .main-table-container .currency-table-container
@@ -320,8 +321,8 @@ main{
     position: relative;
     width: 100%;
     min-width: 320px;
-    max-width: 900px;
-    margin: 0 auto;
+    /* max-width: 900px;
+    margin: 0 auto; */
     background-color: var(--warm-black);
     padding: 15px;
 }
@@ -365,9 +366,8 @@ main{
     border-radius: 5px;
     padding: 15px;
     margin: 10px auto;
-    max-width: 461px;
     min-width: 260px;
-    /* min-height: 150px; */
+    max-width: 400px;
 }
 .main-product-detail .cards .cards--real-time .real-time--icon
 {
@@ -466,8 +466,8 @@ main{
     scroll-snap-align: center;/* parte del scroll horizontal */
     /* width: 190px; */
     width: 70%; /* xq va creciendo con el contenido */
-    min-width: 230px; /* tiene que se mas pequeño que 230px */
-    max-width: 300px;/* mas grande se ve feo */
+    min-width: 190px; /* tiene que se mas pequeño que 230px */
+    max-width: 250px;/* mas grande se ve feo */
     height: 247px;
     border: var(--just-white) solid 1px;
     position: relative;
