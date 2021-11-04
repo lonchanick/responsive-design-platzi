@@ -395,10 +395,13 @@ main{
     line-height: 1.8rem;
     color: #808080;
 }
+/* ################ SECCION COMODIN ############# */
 .comodin{
     position: relative;
     width: 100%;
     min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
     height: 50vh;
     background-image: url('/assets/img/bitcoinbaby2x.png');
     background-size: cover;
@@ -421,6 +424,8 @@ main{
 .planes-container{
     width: 100%;
     min-width: 320px;
+    max-width: 900px;
+    margin: 0  auto;
     height: auto;
     background-color: #ffffffa8;
 }
@@ -549,4 +554,58 @@ main{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* #################FOOTER########## */
+.footer{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    /* padding: 40px; */
+}
+.footer .footer--left{
+    width: 50%;
+    
+    color: var(--just-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer--left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.footer .footer--left ul li{
+    padding: 3px;
+}
+.footer .footer--right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer--right .right--logo{
+    display: inline-block;
+    background-image: url('/assets//icons/batata.svg');
+    width: 38px;
+    height: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.footer .footer--right .right--paragraph{
+    color: var(--soft-orange);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.8px;
 }
